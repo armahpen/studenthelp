@@ -4,28 +4,28 @@ import React from 'react';
 const Testimonials = () => {
   const testimonials = [
     {
-      content: "My daughter's grades improved dramatically after just two months with Scholar Pathway. The personalized approach really made a difference in her confidence and understanding of math concepts.",
-      author: "Sarah Johnson",
-      relation: "Parent of 8th Grader",
-      avatar: "https://randomuser.me/api/portraits/women/65.jpg"
+      content: "My daughter's grades improved dramatically after just two months with Scholar Pathway. The personalized approach really made a difference in her confidence and understanding of mathematics.",
+      author: "Abena Mensah",
+      relation: "Parent of JHS 2 Student",
+      avatar: "https://randomuser.me/api/portraits/women/79.jpg"
     },
     {
       content: "The tutors at Scholar Pathway have been incredible. They make learning fun and interactive. I actually look forward to my science sessions now!",
-      author: "Michael Chen",
-      relation: "10th Grade Student",
-      avatar: "https://randomuser.me/api/portraits/men/32.jpg"
+      author: "Kwame Osei",
+      relation: "SHS 1 Student",
+      avatar: "https://randomuser.me/api/portraits/men/55.jpg"
     },
     {
       content: "We tried several tutoring services before finding Scholar Pathway, and the difference is remarkable. The small group setting works perfectly for my son who was reluctant to participate in larger classes.",
-      author: "David Thompson",
-      relation: "Parent of 6th Grader",
-      avatar: "https://randomuser.me/api/portraits/men/68.jpg"
+      author: "Kofi Adu",
+      relation: "Parent of Primary 6 Student",
+      avatar: "https://randomuser.me/api/portraits/men/22.jpg"
     },
     {
-      content: "I was struggling with English literature until I joined Scholar Pathway. My tutor helped me understand how to analyze texts and write essays properly. I improved from a C to an A- in just one term!",
-      author: "Emma Rodriguez",
-      relation: "11th Grade Student",
-      avatar: "https://randomuser.me/api/portraits/women/45.jpg"
+      content: "I was struggling with English literature until I joined Scholar Pathway. My tutor helped me understand how to analyze texts and write essays properly. I improved from a D to a B in just one term!",
+      author: "Ama Darko",
+      relation: "SHS 3 Student",
+      avatar: "https://randomuser.me/api/portraits/women/33.jpg"
     }
   ];
 

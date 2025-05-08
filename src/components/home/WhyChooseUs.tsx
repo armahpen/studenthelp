@@ -6,8 +6,8 @@ const WhyChooseUs = () => {
   const reasons = [
     {
       icon: <User className="h-12 w-12 text-primary p-2 bg-blue-100 rounded-full" />,
-      title: "Experienced Tutors",
-      description: "Our educators have years of experience and proven track records of improving student performance."
+      title: "Experienced Ghanaian Tutors",
+      description: "Our educators have years of experience in the Ghanaian education system and proven track records of improving student performance."
     },
     {
       icon: <Home className="h-12 w-12 text-primary p-2 bg-blue-100 rounded-full" />,
@@ -17,7 +17,7 @@ const WhyChooseUs = () => {
     {
       icon: <Star className="h-12 w-12 text-primary p-2 bg-blue-100 rounded-full" />,
       title: "Proven Results",
-      description: "Our students consistently show improvement in grades and confidence in their academic abilities."
+      description: "Our students consistently show improvement in their BECE and WASSCE results and gain confidence in their academic abilities."
     }
   ];
 
@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose Scholar Pathway?</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            We're committed to delivering exceptional educational support that helps students thrive academically and personally.
+            We're committed to delivering exceptional educational support that helps Ghanaian students thrive academically and personally.
           </p>
         </div>
 
@@ -49,7 +49,7 @@ const WhyChooseUs = () => {
             <div className="p-8 md:p-12">
               <h3 className="text-2xl font-bold mb-4">Our Approach to Learning</h3>
               <p className="text-gray-600 mb-6">
-                At Scholar Pathway, we believe every student has unique learning needs. Our approach combines:
+                At Scholar Pathway, we believe every Ghanaian student has unique learning needs. Our approach combines:
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start">
@@ -58,7 +58,7 @@ const WhyChooseUs = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span className="text-gray-700">Personalized assessment to identify strengths and areas to improve</span>
+                  <span className="text-gray-700">Personalized assessment aligned with the Ghanaian curriculum</span>
                 </li>
                 <li className="flex items-start">
                   <span className="bg-secondary rounded-full p-1 mr-3 mt-1">
@@ -66,7 +66,7 @@ const WhyChooseUs = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span className="text-gray-700">Engaging teaching methods that make learning enjoyable</span>
+                  <span className="text-gray-700">Engaging teaching methods that incorporate local context</span>
                 </li>
                 <li className="flex items-start">
                   <span className="bg-secondary rounded-full p-1 mr-3 mt-1">
@@ -82,11 +82,11 @@ const WhyChooseUs = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span className="text-gray-700">Building confidence alongside academic skills</span>
+                  <span className="text-gray-700">Building confidence for success in Ghanaian educational system</span>
                 </li>
               </ul>
             </div>
-            <div className="bg-[url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158')] bg-cover bg-center h-64 md:h-auto"></div>
+            <div className="bg-[url('https://images.unsplash.com/photo-1607453998774-d533f65dac99')] bg-cover bg-center h-64 md:h-auto"></div>
           </div>
         </div>
       </div>
