@@ -86,7 +86,7 @@ const WhyChooseUs = () => {
                 </li>
               </ul>
             </div>
-            <div className="bg-[url('https://images.unsplash.com/photo-1607453998774-d533f65dac99')] bg-cover bg-center h-64 md:h-auto"></div>
+            <div className="bg-[url('https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98')] bg-cover bg-center h-64 md:h-auto"></div>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 const Hero = () => {
   return (
     <div className="relative bg-gradient-to-r from-blue-50 to-green-50 overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1613202049775-58f9e10dee9b')] bg-cover bg-center opacity-5"></div>
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1613905780672-9d349243a2dd')] bg-cover bg-center opacity-5"></div>
       <div className="container mx-auto px-4 md:px-6 py-16 md:py-24 relative">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-gray-900">
