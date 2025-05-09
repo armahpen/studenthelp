@@ -17,7 +17,7 @@ const WhyChooseUs = () => {
     {
       icon: <Star className="h-12 w-12 text-primary p-2 bg-blue-100 rounded-full" />,
       title: "Proven Results",
-      description: "Our students consistently show improvement in their BECE and WASSCE results and gain confidence in their academic abilities."
+      description: "Our students consistently show improvement in their BECE and WASSCE results, gain confidence in their academic abilities, and many proceed to Brainbridge Montessori Training Center for further education."
     }
   ];
 
