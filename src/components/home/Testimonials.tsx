@@ -6,26 +6,22 @@ const Testimonials = () => {
     {
       content: "My daughter's grades improved dramatically after just two months with Scholar Pathway. The personalized approach really made a difference in her confidence and understanding of mathematics.",
       author: "Abena Mensah",
-      relation: "Parent of JHS 2 Student",
-      avatar: "https://randomuser.me/api/portraits/women/11.jpg"
+      relation: "Parent of JHS 2 Student"
     },
     {
       content: "The tutors at Scholar Pathway have been incredible. They make learning fun and interactive. I actually look forward to my science sessions now!",
       author: "Kwame Osei",
-      relation: "SHS 1 Student",
-      avatar: "https://randomuser.me/api/portraits/men/13.jpg"
+      relation: "SHS 1 Student"
     },
     {
       content: "We tried several tutoring services before finding Scholar Pathway, and the difference is remarkable. The small group setting works perfectly for my son who was reluctant to participate in larger classes.",
       author: "Kofi Adu",
-      relation: "Parent of Primary 6 Student",
-      avatar: "https://randomuser.me/api/portraits/men/22.jpg"
+      relation: "Parent of Primary 6 Student"
     },
     {
       content: "I was struggling with English literature until I joined Scholar Pathway. My tutor helped me understand how to analyze texts and write essays properly. I improved from a D to a B in just one term!",
       author: "Ama Darko",
-      relation: "SHS 3 Student",
-      avatar: "https://randomuser.me/api/portraits/women/14.jpg"
+      relation: "SHS 3 Student"
     }
   ];
 
@@ -45,18 +41,9 @@ const Testimonials = () => {
               key={index}
               className="bg-gray-50 rounded-lg p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
             >
-              <div className="flex items-start mb-4">
-                <div className="flex-shrink-0 mr-4">
-                  <img 
-                    src={testimonial.avatar} 
-                    alt={testimonial.author}
-                    className="w-12 h-12 rounded-full"
-                  />
-                </div>
-                <div>
-                  <h4 className="font-bold">{testimonial.author}</h4>
-                  <p className="text-sm text-gray-500">{testimonial.relation}</p>
-                </div>
+              <div className="mb-4">
+                <h4 className="font-bold">{testimonial.author}</h4>
+                <p className="text-sm text-gray-500">{testimonial.relation}</p>
               </div>
               <div className="relative">
                 <svg className="absolute top-0 left-0 h-8 w-8 text-gray-200 transform -translate-x-4 -translate-y-4" fill="currentColor" viewBox="0 0 32 32">
