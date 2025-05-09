@@ -49,7 +49,7 @@ const WhyChooseUs = () => {
             <div className="p-8 md:p-12">
               <h3 className="text-2xl font-bold mb-4">Our Approach to Learning</h3>
               <p className="text-gray-600 mb-6">
-                At Scholar Pathway, we believe every Ghanaian student has unique learning needs. Our approach combines:
+                At Scholar Pathway, we offer one-on-one tutoring for students from age 4 to university level, available on weekdays and weekends:
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start">
@@ -58,7 +58,7 @@ const WhyChooseUs = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span className="text-gray-700">Personalized assessment aligned with the Ghanaian curriculum</span>
+                  <span className="text-gray-700">Personalized one-on-one sessions tailored to each student's needs</span>
                 </li>
                 <li className="flex items-start">
                   <span className="bg-secondary rounded-full p-1 mr-3 mt-1">
@@ -66,7 +66,7 @@ const WhyChooseUs = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span className="text-gray-700">Engaging teaching methods that incorporate local context</span>
+                  <span className="text-gray-700">Flexible scheduling on both weekdays and weekends</span>
                 </li>
                 <li className="flex items-start">
                   <span className="bg-secondary rounded-full p-1 mr-3 mt-1">
@@ -74,7 +74,7 @@ const WhyChooseUs = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span className="text-gray-700">Regular progress reports and parent communication</span>
+                  <span className="text-gray-700">Comprehensive support for all age groups, from 4 years to university</span>
                 </li>
                 <li className="flex items-start">
                   <span className="bg-secondary rounded-full p-1 mr-3 mt-1">
@@ -82,11 +82,11 @@ const WhyChooseUs = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span className="text-gray-700">Building confidence for success in Ghanaian educational system</span>
+                  <span className="text-gray-700">Building confidence for success in the Ghanaian educational system</span>
                 </li>
               </ul>
             </div>
-            <div className="bg-[url('https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98')] bg-cover bg-center h-64 md:h-auto"></div>
+            <div className="bg-[url('https://images.unsplash.com/photo-1613145358168-215421060129')] bg-cover bg-center h-64 md:h-auto"></div>
           </div>
         </div>
       </div>
