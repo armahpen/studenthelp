@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
             <Book className="h-6 w-6 text-primary" />
-            <span className="text-xl font-playfair font-bold">Scholar Pathway</span>
+            <span className="text-xl font-playfair font-bold">Student Learn</span>
           </Link>
 
           {/* Desktop Navigation */}

@@ -12,7 +12,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Book className="h-6 w-6 text-secondary" />
-              <span className="text-xl font-playfair font-bold">Scholar Pathway</span>
+              <span className="text-xl font-playfair font-bold">Student Learn</span>
             </div>
             <p className="text-gray-400 mb-4">
               Providing personalized academic support for students in primary and secondary school.
@@ -89,7 +89,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-3">
                 <Mail className="h-5 w-5 text-secondary shrink-0 mt-0.5" />
-                <span className="text-gray-400">info@scholarpathway.com</span>
+                <span className="text-gray-400">info@studentlearn.com</span>
               </li>
             </ul>
           </div>
@@ -97,7 +97,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8">
           <p className="text-gray-400 text-center text-sm">
-            © {new Date().getFullYear()} Scholar Pathway. All rights reserved.
+            © {new Date().getFullYear()} Student Learn. All rights reserved.
           </p>
         </div>
       </div>

@@ -13,7 +13,7 @@ const Hero = () => {
             Quality Education For <span className="text-primary">Ghanaian Students</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
-            Scholar Pathway provides personalized academic support for students throughout Ghana, helping them excel in their studies in a supportive and culturally relevant environment.
+            Student Learn provides personalized academic support for students throughout Ghana, helping them excel in their studies in a supportive and culturally relevant environment.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link to="/contact">
