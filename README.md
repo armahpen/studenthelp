@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/9ba932f4-a8c8-4c10-bc2c-93662328d1bf
+**URL**: https://studenthelp.cloud
 
 ## How can I edit this code?
 
@@ -10,7 +10,7 @@ There are several ways of editing your application.
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://studenthelp.cloud) and start prompting.
+Simply visit the [Project](https://studenthelp.cloud) and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 
