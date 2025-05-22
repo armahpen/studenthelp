@@ -117,15 +117,16 @@ const Contact = () => {
 
                   <div>
                     <label htmlFor="level" className="block text-sm font-medium text-gray-700 mb-1">
-                      Level
+                      University Level
                     </label>
                     <input
                       type="text"
                       id="level"
                       required
-                      placeholder="Enter your level (e.g. Beginner, Intermediate, Advanced)"
+                      placeholder="Enter your university level (e.g. Freshman, Sophomore, Junior, Senior)"
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
                     />
+                    <p className="text-xs text-gray-500 mt-1">For university students only</p>
                   </div>
 
                   <div>
