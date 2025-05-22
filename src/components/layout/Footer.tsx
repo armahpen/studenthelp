@@ -12,7 +12,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Book className="h-6 w-6 text-secondary" />
-              <span className="text-xl font-playfair font-bold">Student Learn</span>
+              <span className="text-xl font-playfair font-bold">Student Help</span>
             </div>
             <p className="text-gray-400 mb-4">
               Providing personalized academic support for students in primary and secondary school.
@@ -80,16 +80,12 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Contact Information</h3>
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
-                <MapPin className="h-5 w-5 text-secondary shrink-0 mt-0.5" />
-                <span className="text-gray-400">123 Education Street, Learning City</span>
-              </li>
-              <li className="flex items-start space-x-3">
                 <Phone className="h-5 w-5 text-secondary shrink-0 mt-0.5" />
-                <span className="text-gray-400">(123) 456-7890</span>
+                <span className="text-gray-400">0596788173</span>
               </li>
               <li className="flex items-start space-x-3">
                 <Mail className="h-5 w-5 text-secondary shrink-0 mt-0.5" />
-                <span className="text-gray-400">info@studentlearn.com</span>
+                <span className="text-gray-400">info@studenthelp.cloud</span>
               </li>
             </ul>
           </div>
@@ -97,7 +93,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8">
           <p className="text-gray-400 text-center text-sm">
-            © {new Date().getFullYear()} Student Learn. All rights reserved.
+            © {new Date().getFullYear()} Student Help. All rights reserved.
           </p>
         </div>
       </div>

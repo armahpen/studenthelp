@@ -4,7 +4,7 @@ import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import { Button } from '@/components/ui/button';
 import { useToast } from "@/hooks/use-toast";
-import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { Phone, Mail, Clock } from 'lucide-react';
 
 const Contact = () => {
   const { toast } = useToast();
@@ -116,6 +116,22 @@ const Contact = () => {
                   </div>
 
                   <div>
+                    <label htmlFor="level" className="block text-sm font-medium text-gray-700 mb-1">
+                      Level
+                    </label>
+                    <select
+                      id="level"
+                      required
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                    >
+                      <option value="">Select Level</option>
+                      <option value="beginner">Beginner</option>
+                      <option value="intermediate">Intermediate</option>
+                      <option value="advanced">Advanced</option>
+                    </select>
+                  </div>
+
+                  <div>
                     <label htmlFor="subjects" className="block text-sm font-medium text-gray-700 mb-1">
                       Subjects Interested In
                     </label>
@@ -171,24 +187,17 @@ const Contact = () => {
                   <h2 className="text-2xl font-bold mb-6">Contact Information</h2>
                   <div className="space-y-6">
                     <div className="flex items-start">
-                      <MapPin className="h-6 w-6 text-primary shrink-0 mt-1 mr-3" />
-                      <div>
-                        <h3 className="font-semibold">Address</h3>
-                        <p className="text-gray-600">123 Education Street, Learning City</p>
-                      </div>
-                    </div>
-                    <div className="flex items-start">
                       <Phone className="h-6 w-6 text-primary shrink-0 mt-1 mr-3" />
                       <div>
                         <h3 className="font-semibold">Phone</h3>
-                        <p className="text-gray-600">(123) 456-7890</p>
+                        <p className="text-gray-600">0596788173</p>
                       </div>
                     </div>
                     <div className="flex items-start">
                       <Mail className="h-6 w-6 text-primary shrink-0 mt-1 mr-3" />
                       <div>
                         <h3 className="font-semibold">Email</h3>
-                        <p className="text-gray-600">info@scholarpathway.com</p>
+                        <p className="text-gray-600">info@studenthelp.cloud</p>
                       </div>
                     </div>
                     <div className="flex items-start">
