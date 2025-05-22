@@ -119,16 +119,13 @@ const Contact = () => {
                     <label htmlFor="level" className="block text-sm font-medium text-gray-700 mb-1">
                       Level
                     </label>
-                    <select
+                    <input
+                      type="text"
                       id="level"
                       required
+                      placeholder="Enter your level (e.g. Beginner, Intermediate, Advanced)"
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
-                    >
-                      <option value="">Select Level</option>
-                      <option value="beginner">Beginner</option>
-                      <option value="intermediate">Intermediate</option>
-                      <option value="advanced">Advanced</option>
-                    </select>
+                    />
                   </div>
 
                   <div>
