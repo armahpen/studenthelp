@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
@@ -44,9 +43,9 @@ const About = () => {
         <section className="bg-blue-50 py-16 md:py-24">
           <div className="container mx-auto px-4 md:px-6">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">About Scholar Pathway</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">About Student Learn</h1>
               <p className="text-lg text-gray-700 mb-8">
-                Founded with a passion for education, Scholar Pathway is dedicated to helping students achieve academic excellence through personalized learning experiences.
+                Founded with a passion for education, Student Learn is dedicated to helping students achieve academic excellence through personalized learning experiences.
               </p>
             </div>
           </div>
@@ -59,7 +58,7 @@ const About = () => {
               <div>
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <p className="text-gray-600 mb-4">
-                  Scholar Pathway was founded in 2018 by a group of passionate educators who recognized the need for personalized academic support that goes beyond what's typically available in traditional classroom settings.
+                  Student Learn was founded in 2018 by a group of passionate educators who recognized the need for personalized academic support that goes beyond what's typically available in traditional classroom settings.
                 </p>
                 <p className="text-gray-600 mb-4">
                   What began as small after-school tutoring sessions has grown into a comprehensive academic support service that has helped hundreds of students improve their grades, boost their confidence, and develop a genuine love for learning.
@@ -85,7 +84,7 @@ const About = () => {
             <div className="text-center max-w-3xl mx-auto mb-12">
               <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
               <p className="text-gray-600">
-                At Scholar Pathway, we believe every student has the potential to excel academically with the right support, guidance, and learning environment.
+                At Student Learn, we believe every student has the potential to excel academically with the right support, guidance, and learning environment.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
