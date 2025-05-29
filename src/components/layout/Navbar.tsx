@@ -1,7 +1,7 @@
+
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { Book } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
-            <Book className="h-6 w-6 text-primary" />
+            <img src="/lovable-uploads/d1a8d558-1045-4dc2-b113-92afe94680bd.png" alt="Student Learn Logo" className="h-8 w-8" />
             <span className="text-xl font-playfair font-bold">Student Learn</span>
           </Link>
 
