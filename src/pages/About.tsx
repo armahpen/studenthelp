@@ -1,40 +1,10 @@
+
 import React from 'react';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import { Check } from 'lucide-react';
 
 const About = () => {
-  const tutors = [
-    {
-      name: "Dr. Sarah Miller",
-      role: "Lead Mathematics Tutor",
-      image: "https://randomuser.me/api/portraits/women/24.jpg",
-      bio: "Ph.D. in Mathematics with 10+ years of teaching experience. Specializes in making complex math concepts accessible to students of all levels.",
-      subjects: ["Algebra", "Calculus", "Statistics"]
-    },
-    {
-      name: "James Wilson",
-      role: "Science Specialist",
-      image: "https://randomuser.me/api/portraits/men/37.jpg", 
-      bio: "M.Sc. in Physics with a passion for hands-on science education. Believes in learning through experimentation and real-world applications.",
-      subjects: ["Physics", "Chemistry", "Biology"]
-    },
-    {
-      name: "Emily Chen",
-      role: "English & Humanities Tutor",
-      image: "https://randomuser.me/api/portraits/women/33.jpg",
-      bio: "Literature graduate with specialized training in language development. Helps students become confident readers, writers, and critical thinkers.",
-      subjects: ["English Literature", "Language Arts", "History"]
-    },
-    {
-      name: "Robert Johnson",
-      role: "Social Sciences Instructor",
-      image: "https://randomuser.me/api/portraits/men/54.jpg", 
-      bio: "Former high school teacher with expertise in geography and history. Makes social sciences engaging through storytelling and interactive methods.",
-      subjects: ["Geography", "History", "Social Studies"]
-    }
-  ];
-
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
@@ -43,9 +13,9 @@ const About = () => {
         <section className="bg-blue-50 py-16 md:py-24">
           <div className="container mx-auto px-4 md:px-6">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">About Student Learn</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">About Student Help</h1>
               <p className="text-lg text-gray-700 mb-8">
-                Founded with a passion for education, Student Learn is dedicated to helping students achieve academic excellence through personalized learning experiences.
+                Founded with a passion for education, Student Help is dedicated to helping students achieve academic excellence through personalized learning experiences.
               </p>
             </div>
           </div>
@@ -58,7 +28,7 @@ const About = () => {
               <div>
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <p className="text-gray-600 mb-4">
-                  Student Learn was founded in 2018 by a group of passionate educators who recognized the need for personalized academic support that goes beyond what's typically available in traditional classroom settings.
+                  Student Help was founded in 2018 by a group of passionate educators who recognized the need for personalized academic support that goes beyond what's typically available in traditional classroom settings.
                 </p>
                 <p className="text-gray-600 mb-4">
                   What began as small after-school tutoring sessions has grown into a comprehensive academic support service that has helped hundreds of students improve their grades, boost their confidence, and develop a genuine love for learning.
@@ -84,7 +54,7 @@ const About = () => {
             <div className="text-center max-w-3xl mx-auto mb-12">
               <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
               <p className="text-gray-600">
-                At Student Learn, we believe every student has the potential to excel academically with the right support, guidance, and learning environment.
+                At Student Help, we believe every student has the potential to excel academically with the right support, guidance, and learning environment.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -115,46 +85,6 @@ const About = () => {
                   We aim to instill a genuine love for learning that extends beyond the classroom and continues throughout life.
                 </p>
               </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Meet Our Tutors */}
-        <section className="py-16 bg-white">
-          <div className="container mx-auto px-4 md:px-6">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Meet Our Tutors</h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">
-                Our team consists of experienced educators passionate about helping students reach their full potential.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {tutors.map((tutor, index) => (
-                <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-                  <img 
-                    src={tutor.image} 
-                    alt={tutor.name}
-                    className="w-full h-64 object-cover object-center"
-                  />
-                  <div className="p-6">
-                    <h3 className="font-bold text-xl mb-1">{tutor.name}</h3>
-                    <p className="text-primary font-medium text-sm mb-3">{tutor.role}</p>
-                    <p className="text-gray-600 text-sm mb-4">{tutor.bio}</p>
-                    <h4 className="font-semibold text-sm mb-2">Subjects:</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {tutor.subjects.map((subject, idx) => (
-                        <span 
-                          key={idx}
-                          className="bg-blue-50 text-primary text-xs py-1 px-2 rounded-full"
-                        >
-                          {subject}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              ))}
             </div>
           </div>
         </section>
@@ -198,8 +128,8 @@ const About = () => {
               </div>
               <div className="order-1 md:order-2">
                 <img 
-                  src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7" 
-                  alt="Student studying" 
+                  src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9" 
+                  alt="Homeschooling with teacher and student" 
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
               </div>

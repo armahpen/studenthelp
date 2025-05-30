@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
     <section className="section-padding bg-gray-50">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose Student Learn?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose Student Help?</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             We're committed to delivering exceptional educational support that helps Ghanaian students thrive academically and personally.
           </p>
@@ -49,7 +49,7 @@ const WhyChooseUs = () => {
             <div className="p-8 md:p-12">
               <h3 className="text-2xl font-bold mb-4">Our Approach to Learning</h3>
               <p className="text-gray-600 mb-6">
-                At Student Learn, we offer one-on-one tutoring for students from age 4 to university level, available on weekdays and weekends:
+                At Student Help, we offer one-on-one tutoring for students from age 4 to university level, available on weekdays and weekends:
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start">

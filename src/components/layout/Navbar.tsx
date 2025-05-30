@@ -15,8 +15,8 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
-            <img src="/lovable-uploads/d1a8d558-1045-4dc2-b113-92afe94680bd.png" alt="Student Learn Logo" className="h-8 w-8" />
-            <span className="text-xl font-playfair font-bold">Student Learn</span>
+            <img src="/lovable-uploads/86ad9ccc-2389-46b6-a61e-9eb1ee273abe.png" alt="Student Help Logo" className="h-8 w-8" />
+            <span className="text-xl font-playfair font-bold">Student Help</span>
           </Link>
 
           {/* Desktop Navigation */}

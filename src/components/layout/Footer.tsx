@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <img src="/lovable-uploads/d1a8d558-1045-4dc2-b113-92afe94680bd.png" alt="Student Help Logo" className="h-6 w-6" />
+              <img src="/lovable-uploads/86ad9ccc-2389-46b6-a61e-9eb1ee273abe.png" alt="Student Help Logo" className="h-6 w-6" />
               <span className="text-xl font-playfair font-bold">Student Help</span>
             </div>
             <p className="text-gray-400 mb-4">
