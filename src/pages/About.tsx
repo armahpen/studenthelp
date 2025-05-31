@@ -39,8 +39,8 @@ const About = () => {
               </div>
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" 
-                  alt="Students learning" 
+                  src="/lovable-uploads/d4e8117b-421e-4003-962d-e85a3977b672.png" 
+                  alt="Online learning with educational elements" 
                   className="w-full h-auto"
                 />
               </div>
@@ -128,8 +128,8 @@ const About = () => {
               </div>
               <div className="order-1 md:order-2">
                 <img 
-                  src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9" 
-                  alt="Homeschooling with teacher and student" 
+                  src="/lovable-uploads/1e2f93ae-76bf-48c4-bb2a-e63ad02cbee3.png" 
+                  alt="Success and achievement in education" 
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
               </div>
