@@ -190,8 +190,8 @@ const Subjects = () => {
               </div>
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" 
-                  alt="Students learning" 
+                  src="/lovable-uploads/5f523548-953c-4157-b72b-945061ac0fba.png" 
+                  alt="Teacher writing mathematical equations on blackboard" 
                   className="w-full h-auto"
                 />
               </div>
