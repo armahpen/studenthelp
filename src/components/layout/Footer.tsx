@@ -89,9 +89,22 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8">
-          <p className="text-gray-400 text-center text-sm">
-            © {new Date().getFullYear()} Student Help. All rights reserved.
-          </p>
+          <div className="text-center">
+            <p className="text-gray-400 text-sm mb-2">
+              © {new Date().getFullYear()} Student Help. All rights reserved.
+            </p>
+            <p className="text-gray-400 text-sm">
+              Built and designed by{' '}
+              <a 
+                href="https://www.instagram.com/heavanxx?igsh=cm14N29rYWlpdW5p" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-secondary hover:text-secondary/80 transition-colors font-medium"
+              >
+                IvansBuilds
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
