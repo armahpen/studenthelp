@@ -160,7 +160,7 @@ const Subjects = () => {
               <div>
                 <h2 className="text-3xl font-bold mb-6">Our Teaching Approach</h2>
                 <p className="text-gray-600 mb-4">
-                  At Scholar Pathway, we believe in a holistic approach to education that goes beyond simply teaching to the test.
+                  At Student Help, we believe in a holistic approach to education that goes beyond simply teaching to the test.
                 </p>
                 <p className="text-gray-600 mb-4">
                   Our tutors work to develop a deep understanding of concepts, critical thinking skills, and a genuine interest in the subject matter, all while ensuring students meet their academic requirements.
