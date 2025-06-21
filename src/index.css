@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
@@ -95,5 +96,23 @@
 
   .card {
     @apply bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all;
+  }
+
+  /* Global check icon styling for consistency across all pages */
+  .check-icon-primary {
+    @apply bg-primary text-white rounded-full p-1;
+  }
+
+  .check-icon-secondary {
+    @apply bg-secondary text-white rounded-full p-1;
+  }
+
+  /* Testimonial card styling for consistency */
+  .testimonial-card {
+    @apply bg-orange-50 border-orange-100;
+  }
+
+  .testimonial-quote {
+    @apply text-orange-200;
   }
 }

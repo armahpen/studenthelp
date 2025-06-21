@@ -5,17 +5,17 @@ import { Star, User, Home } from 'lucide-react';
 const WhyChooseUs = () => {
   const reasons = [
     {
-      icon: <User className="h-12 w-12 text-primary p-2 bg-blue-100 rounded-full" />,
+      icon: <User className="h-12 w-12 text-primary p-2 bg-orange-100 rounded-full" />,
       title: "Experienced Ghanaian Tutors",
       description: "Our educators have years of experience in the Ghanaian education system and proven track records of improving student performance."
     },
     {
-      icon: <Home className="h-12 w-12 text-primary p-2 bg-blue-100 rounded-full" />,
+      icon: <Home className="h-12 w-12 text-primary p-2 bg-orange-100 rounded-full" />,
       title: "Comfortable Learning Environment",
       description: "Our home-based setting creates a relaxed atmosphere where students feel at ease to learn and ask questions."
     },
     {
-      icon: <Star className="h-12 w-12 text-primary p-2 bg-blue-100 rounded-full" />,
+      icon: <Star className="h-12 w-12 text-primary p-2 bg-orange-100 rounded-full" />,
       title: "Proven Results",
       description: "Our students consistently show improvement in their BECE and WASSCE results, gain confidence in their academic abilities, and many proceed to Brainbridge Montessori Training Center for further education."
     }
@@ -53,7 +53,7 @@ const WhyChooseUs = () => {
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start">
-                  <span className="bg-secondary rounded-full p-1 mr-3 mt-1">
+                  <span className="bg-primary rounded-full p-1 mr-3 mt-1">
                     <svg className="h-3 w-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                     </svg>
@@ -61,7 +61,7 @@ const WhyChooseUs = () => {
                   <span className="text-gray-700">Personalized one-on-one sessions tailored to each student's needs</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="bg-secondary rounded-full p-1 mr-3 mt-1">
+                  <span className="bg-primary rounded-full p-1 mr-3 mt-1">
                     <svg className="h-3 w-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                     </svg>
@@ -69,7 +69,7 @@ const WhyChooseUs = () => {
                   <span className="text-gray-700">Flexible scheduling on both weekdays and weekends</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="bg-secondary rounded-full p-1 mr-3 mt-1">
+                  <span className="bg-primary rounded-full p-1 mr-3 mt-1">
                     <svg className="h-3 w-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                     </svg>
@@ -77,7 +77,7 @@ const WhyChooseUs = () => {
                   <span className="text-gray-700">Comprehensive support for all age groups, from 4 years to university</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="bg-secondary rounded-full p-1 mr-3 mt-1">
+                  <span className="bg-primary rounded-full p-1 mr-3 mt-1">
                     <svg className="h-3 w-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                     </svg>
