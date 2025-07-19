@@ -126,12 +126,12 @@ const Footer = () => {
             <p className="text-gray-400 text-sm">
               Built and designed by{' '}
               <a 
-                href="https://www.instagram.com/heavanxx?igsh=cm14N29rYWlpdW5p" 
+                href="https://heavans.it.com/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-secondary hover:text-secondary/80 transition-colors font-medium"
               >
-                IvansBuilds
+                Heavans
               </a>
             </p>
           </div>
