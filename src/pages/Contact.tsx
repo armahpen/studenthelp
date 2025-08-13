@@ -100,7 +100,7 @@ const Contact = () => {
                   <div className="mt-6">
                     <p className="text-gray-700 font-semibold mb-2">No obligation, just helpful guidance.</p>
                     <a 
-                      href="https://teachers.studenthelp.cloud/parent/register" 
+                      href="https://forms.gle/JGPatxC4Gh13ktii7" 
                       target="_blank" 
                       rel="noopener noreferrer"
                     >
